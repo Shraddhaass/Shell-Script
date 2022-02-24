@@ -1,4 +1,4 @@
-#compare 2 file 2a
+#compare 2 strins
 echo -n "Enter file name 1:"
 read f1
 if [ -e $f1 ]
