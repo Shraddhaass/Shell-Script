@@ -1,4 +1,4 @@
-#Write a shell script that get executed and display the message either "good morning" or "goo Afternoon" or "good night"depending upon
+#Write a shell script that get executed and display the message either "good morning" or "good Afternoon" or "good night"depending upon
 # times at which user log in 
 set -- `who`
 u=$1
