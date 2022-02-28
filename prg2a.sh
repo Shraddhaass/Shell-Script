@@ -16,8 +16,8 @@ echo -n "Enter a file name2:"
 read f2
 if [ -e $f2 ]
 then
-set -- `ls -ld $f1`
-file1perm=$1
+set -- `ls -ld $f2`
+file2perm=$1
 else
 echo "File does not exit"
 exit
