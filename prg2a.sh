@@ -26,6 +26,7 @@ if [ $file1perm = $file2perm ]
 then
 echo "File permmision are identical"
 echo "Permission is $file1perm"
+exit
 else
 echo "File permisssion are not identical"
 echo "$f1 permission is $file1perm"
