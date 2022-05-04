@@ -1,0 +1,15 @@
+2233|a.k. shukla|g.m.|12/12/52|6000
+9876|jai sharma|director|03/12/50|25000
+5678|sumit chakrobarty|d.g.m|04/19/43|6000
+2365|barun sengupta|director|05/11/47|7800
+5423|n.k. gupta|chairman|08/30/56|5400
+1006|chanchal sanghvi|director|09/03/38|6700
+6213|karuna ganguly|g.m.|06/05/62|6300
+1265|s.n. dasgupta|manager|09/12/63|5600
+4290|jayant Chodhury|executive|09/07/50|6000
+2476|anil aggarwal|manager|05/01/59|5000
+6521|lalit chowdury|director|09/26/45|20000
+3212|shyam saksena|d.g.m|12/12/55|6000
+3564|sudhir Agarwal|executive|07/06/47|30000
+2345|j.b. saxena|g.m.|03/12/45|10000
+0110|v.k. agrawal |g.m.|12/31/40|9000
