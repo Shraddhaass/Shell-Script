@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para1 {
+            background-color: aqua;
+            position: absolute;
+            top:80px;
+            left: 80px;
+            z-index: 40;
+        }
+        #para2{
+            background-color:red;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            z-index: 50;
+        }
+        #para3{
+            background-color:blue;
+            position: absolute;
+            left: 120px;
+            top:120px;
+            z-index: 40;
+        }
+    </style>
+    <script>
+        function move(a){
+            a.style.Index=100;
+            var pa=document.getElementsByTagName("p");
+            for(i=0;i<pa.length;i++){
+                pa[i].style.zIndex=i+1;
+            }
+            a.style.zIndex=100;
+        }
+    </script>
+</head>
+
+<body>
+    <p id="para1" onmouseover="move(this);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere aspernatur aperiam ipsa iste autem?
+        Molestias aliquam officiis ullam, facilis, nisi dolorum, atque iste totam suscipit asperiores numquam libero
+        labore ipsa. </p>
+    <p id="para2" onmouseover="move(this);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloremque dolorum sit molestiae harum
+        cum velit nostrum corporis fuga neque tenetur omnis, provident qui quaerat in veritatis hic perspiciatis minus!
+    </p>
+    <p id="para3" onmouseover="move(this);">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, assumenda molestias? Minima eum
+        magnam doloremque quaerat quis, cumque optio maxime aliquam impedit dicta amet provident eaque consectetur
+        sequi. Eaque, deserunt!</p>
+
+</body>
+
+</html>
